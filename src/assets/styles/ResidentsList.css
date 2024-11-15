@@ -1,0 +1,30 @@
+.cards__btn {
+  padding: 0.5rem;
+  margin: 0.2rem;
+  border: none;
+  border-radius: 5px;
+  color: whitesmoke;
+  background-color: #062226;
+  filter: drop-shadow(0 5px 5px rgba(1, 10, 11, 0.5));
+}
+
+.cards__btn:hover {
+  background-color: #05292e;
+  transform: scale(1.05);
+}
+
+.cards__btn:active {
+  background-color: #044e54;
+  transform: scale(0.98);
+}
+
+.cards__pagination {
+  text-align: center;
+}
+
+.cards__page {
+  margin-top: 1rem;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: antiquewhite;
+}
